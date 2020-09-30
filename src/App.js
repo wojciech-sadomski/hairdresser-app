@@ -7,7 +7,7 @@ import Login from "./components/Login";
 import ErrorPage from "./components/ErrorPage";
 
 import "../src/style/main.scss";
-
+const logo = "Hairdresser";
 function App() {
   return (
     <BrowserRouter>
