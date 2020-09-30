@@ -1,0 +1,43 @@
+.aboutUs {
+  display: flex;
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+
+  &__back {
+    margin: 0;
+    text-align: center;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    color: black;
+    padding: 5px;
+    font-size: 20px;
+  }
+  &__description {
+    display: grid;
+    width: 66%;
+    grid-template-columns: 1fr 1fr 1fr;
+    &__header {
+      grid-column-start: 1;
+      grid-column-end: 4;
+      text-align: center;
+    }
+  }
+  &__foto {
+    margin: 0;
+    text-align: center;
+    position: absolute;
+    left: 30%;
+    top: 50%;
+    color: black;
+    padding: 5px;
+    font-size: 20px;
+    transform: translate(-50%, -50%);
+  }
+  &__logo {
+    width: 34%;
+    height: 100%;
+    background-color: rgb(55, 151, 206);
+  }
+}
