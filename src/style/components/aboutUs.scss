@@ -14,25 +14,40 @@
     padding: 5px;
     font-size: 20px;
   }
+
   &__description {
     display: grid;
-    width: 66%;
-    grid-template-columns: 1fr 1fr 1fr;
+    width: 60%;
+    grid-template-columns: 30% 1fr 1fr 1fr;
+    grid-template-rows: 180px 1fr;
+    column-gap: 10px;
+    padding: 15px;
+
     &__header {
-      grid-column-start: 1;
-      grid-column-end: 4;
-      text-align: center;
+      grid-column-start: 2;
+      grid-column-end: 5;
+      text-align: left;
+      margin-top: 0;
+      padding-top: 100px;
+    }
+    &__text {
+      margin-top: 0;
+      font-size: 15px;
+      line-height: 20px;
     }
   }
   &__foto {
-    margin: 0;
-    text-align: center;
+    background-image: url(../../foto/about-us-decoration.png);
+    background-position: center;
+    background-size: cover;
+    width: 35%;
+    height: 300px;
+    z-index: 1000;
     position: absolute;
     left: 30%;
-    top: 50%;
+    top: 280px;
     color: black;
     padding: 5px;
-    font-size: 20px;
     transform: translate(-50%, -50%);
   }
   &__logo {
