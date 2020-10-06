@@ -14,7 +14,7 @@ const Home = () => {
           </NavLink>
         </div>
         <div className="sidePanel__bottom">
-          <NavLink to="/login">Zaloguj się </NavLink>
+          <NavLink to="/login">Sign In</NavLink>
         </div>
       </div>
     </div>

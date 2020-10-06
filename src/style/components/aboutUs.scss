@@ -2,7 +2,6 @@
   display: flex;
   position: relative;
   width: 100vw;
-  height: 100vh;
 
   &__back {
     margin: 0;
@@ -53,7 +52,6 @@
   }
   &__logo {
     width: 34%;
-    height: 100%;
     background-color: rgb(55, 151, 206);
   }
 }
