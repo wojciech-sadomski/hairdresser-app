@@ -3,6 +3,9 @@
 @import "components/login.scss";
 @import "components/aboutUs.scss";
 @import "components/userPanel.scss";
+* {
+  margin: 0;
+}
 a {
   text-decoration: none;
   padding: 5px;

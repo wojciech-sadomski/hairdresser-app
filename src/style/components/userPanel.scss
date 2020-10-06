@@ -8,13 +8,14 @@
   color: white;
 
   &__header {
+    font-size: 80px;
     font-family: "Dancing Script", cursive;
+    color: white;
+    margin-top: 80px;
     position: absolute;
-    transform: translate(-50%, -50%);
     left: 50%;
     top: 20px;
-    margin-bottom: 30px;
-    font-size: 60px;
+    transform: translate(-50%, -50%);
   }
   &__info {
     width: 50%;
@@ -23,18 +24,34 @@
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-
     line-height: 50px;
-
-    &--center {
-      align-items: center;
-      margin: 120px;
-      border: $yellowFrame;
+    &__button {
+      background: none;
+      margin: 20px 10px;
+      background-color: yellow;
+      padding: 10px;
+      border-radius: 5px;
     }
-    &--top {
-      justify-content: flex-start;
-      margin: 120px;
+    &--visits {
+      display: flex;
+      align-items: flex-start;
+
       border: $yellowFrame;
+      width: 80%;
+      height: 50%;
+      margin: 50px 50px 50px 25px;
+      border-radius: 15px;
+    }
+    &--date {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      border: $yellowFrame;
+      width: 80%;
+      height: 50%;
+      margin: 50px 25px 50px 50px;
+      border-radius: 15px;
     }
   }
 }
