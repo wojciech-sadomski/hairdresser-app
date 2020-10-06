@@ -18,8 +18,9 @@ input {
     font-size: 20px;
   }
   &__button {
-    background-color: yellow;
+    background: none;
     margin: 0 10px;
+    background-color: yellow;
   }
   &__haeder {
     font-size: 80px;
@@ -49,6 +50,7 @@ input {
     width: 40vw;
     height: 30vh;
     border-radius: 20px;
+    padding: 30px 10px;
     border: 2px solid yellow;
     align-items: center;
     justify-content: center;

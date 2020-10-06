@@ -1,6 +1,10 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 const Login = () => {
+  const handleLogin = (e) => {
+    e.preventDefault();
+    return console.log("działa");
+  };
   return (
     <div className="login">
       <NavLink className="login__back" to="/">
@@ -8,19 +12,18 @@ const Login = () => {
       </NavLink>
       <h1 className="login__haeder">Hairdressier</h1>
       <div className="login__panel">
-        <form className="formularz">
+        <form className="form">
+          <input className="login__input" type="text" placeholder="Imię" />
           <input
             className="login__input"
             type="email"
-            placeholder="Imię i Nazwisko"
-          />
-          <input
-            className="login__input"
-            type="text"
             placeholder="Adres e-mail"
           />
+          <input className="login__input" type="password" placeholder="Hasło" />
+          <NavLink to="/user">
+            <button className="login__button">Zaloguj</button>
+          </NavLink>
 
-          <button className="login__button">Zaloguj</button>
           <button className="login__button">Utwórz konto</button>
         </form>
       </div>
