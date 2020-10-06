@@ -1,0 +1,59 @@
+.main {
+  display: flex;
+  flex-direction: row;
+}
+.haeder {
+  // position: absolute;
+  transform-origin: right;
+  margin: center;
+}
+
+.main__panel {
+  position: relative;
+  color: rgb(38, 49, 53);
+  font-size: 50px;
+  font-family: "Dancing Script", cursive;
+  text-align: center;
+  width: 66%;
+  height: 100vh;
+  background-image: url(../../foto/home-background.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.sidePanel {
+  width: 34%;
+  height: 100vh;
+  text-align: center;
+  color: black;
+  font-size: 35px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 300;
+  &__top {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    height: 50%;
+    background-color: rgb(250, 244, 167);
+    justify-content: center;
+    align-items: center;
+
+    &--bold {
+      font-family: Arial, Helvetica, sans-serif;
+      font-weight: bold;
+      margin: 10px;
+    }
+    &__header {
+      font-family: "Dancing Script", cursive;
+      margin-top: 0;
+    }
+  }
+  &__bottom {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    display: flex;
+    height: 50%;
+    background-color: rgb(224, 228, 218);
+    justify-content: center;
+    align-items: center;
+  }
+}

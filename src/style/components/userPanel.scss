@@ -1,0 +1,25 @@
+.userPanel {
+  width: 100vw;
+  height: 100vh;
+  background-color: black;
+  position: relative;
+  display: flex;
+  color: white;
+  &--data {
+    width: 50%;
+    height: 100%;
+    background-color: aqua;
+  }
+  &__header {
+    font-family: "Dancing Script", cursive;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 20px;
+  }
+  &--visits {
+    height: 100%;
+    background-color: red;
+    width: 50%;
+  }
+}

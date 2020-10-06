@@ -45,10 +45,11 @@
     z-index: 1000;
     position: absolute;
     left: 30%;
-    top: 280px;
+    top: 300px;
     color: black;
     padding: 5px;
     transform: translate(-50%, -50%);
+    border-radius: 25px;
   }
   &__logo {
     width: 34%;
