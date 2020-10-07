@@ -9,7 +9,6 @@ class UserPanel extends React.Component {
 
   render() {
     const now = new Date();
-    const userVisits = this.state.users.map(user);
     return (
       <div className="userPanel">
         <NavLink className="login__back" to="/">
