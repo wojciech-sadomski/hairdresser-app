@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ccac14a4a2ed1665b64f152af0e17fe3",
+    "revision": "2bee1ba0a52d8a8f26fe27526eedeace",
     "url": "/hairdresser-app/index.html"
   },
   {
-    "revision": "510a405cfe8a38efed65",
+    "revision": "66dcdd9501f061f45878",
     "url": "/hairdresser-app/static/css/main.b498f20d.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/hairdresser-app/static/js/2.5d5773b3.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "510a405cfe8a38efed65",
-    "url": "/hairdresser-app/static/js/main.3a002264.chunk.js"
+    "revision": "66dcdd9501f061f45878",
+    "url": "/hairdresser-app/static/js/main.6c2a3a06.chunk.js"
   },
   {
     "revision": "4e173a816627a10435d8",
