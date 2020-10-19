@@ -11,9 +11,9 @@ import "../src/style/main.scss";
 const logo = "Hairdresser";
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
       <div>
-        <Switch>
+        <Switch logo={logo}>
           <Route exact path="/" component={Home} />
           <Route path="/news" component={News} />
           <Route path="/login" component={Login} />

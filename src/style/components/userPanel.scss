@@ -1,7 +1,7 @@
 @import "variables/variables.scss";
 .userPanel {
   width: 100vw;
-  height: 100vh;
+  min-height: 100vh;
   background-color: black;
   position: relative;
   display: flex;
@@ -25,6 +25,7 @@
     justify-content: center;
     align-items: flex-start;
     line-height: 50px;
+    margin-top: 140px;
     &__button {
       background: none;
       margin: 20px 10px;
@@ -34,15 +35,16 @@
     }
     &--visits {
       display: flex;
-      align-items: flex-start;
-
+      align-items: center;
+      flex-direction: column;
+      text-align: center;
       border: $yellowFrame;
       width: 80%;
       height: 50%;
       margin: 50px 50px 50px 25px;
       border-radius: 15px;
     }
-    &--date {
+    &__data {
       display: flex;
       flex-direction: column;
       justify-content: center;
@@ -53,5 +55,14 @@
       margin: 50px 25px 50px 50px;
       border-radius: 15px;
     }
+  }
+}
+.visit {
+  display: flex;
+  &__button {
+    margin: 5% 10px;
+    height: 50%;
+    align-items: center;
+    justify-content: center2;
   }
 }
